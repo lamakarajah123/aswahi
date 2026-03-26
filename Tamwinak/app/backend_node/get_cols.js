@@ -1,0 +1,1 @@
+const { Sequelize } = require('sequelize'); require('dotenv').config(); const sequelize = new Sequelize(process.env.DATABASE_URL); sequelize.query('SELECT column_name FROM information_schema.columns WHERE table_name = \'users\';').then(console.log).catch(console.error).finally(() = 

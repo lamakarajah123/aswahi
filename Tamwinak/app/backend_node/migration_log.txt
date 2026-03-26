@@ -1,0 +1,9 @@
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ≡ƒ¢á∩╕Å  run anywhere with `dotenvx run -- yourcommand`
+
+[4mSequelize CLI [Node: 24.13.0, CLI: 6.6.5, ORM: 6.37.7][24m
+
+Loaded configuration file "config\config.json".
+Using environment "development".
+== 20260302180000-industries-store-products: migrating =======
+
+
