@@ -1,10 +1,45 @@
-# lodash-es v4.17.23
-
-The [Lodash](https://lodash.com/) library exported as [ES](http://www.ecma-international.org/ecma-262/6.0/) modules.
-
-Generated using [lodash-cli](https://www.npmjs.com/package/lodash-cli):
-```shell
-$ lodash modularize exports=es -o ./
+# 🛒 اسواحي | Aswahi - Fresh Groceries Delivered
+**اسواحي (Aswahi)** هي منصة متطورة للتجارة الإلكترونية وتوصيل البقالة الطازجة، تهدف إلى ربط العملاء بالمتاجر المحلية وتسهيل عملية التسوق والتوصيل السريع.
+![Aswahi Banner](https://img.shields.io/badge/Aswahi-Grocery%20Delivery-green?style=for-the-badge)
+![Freshness](https://img.shields.io/badge/Fresh-Daily-orange?style=for-the-badge)
+---
+## ✨ المميزات الرئيسية
+- **توصيل البقالة الطازجة:** نظام متكامل لطلب الخضروات، الفواكه، والمواد الغذائية من المتاجر القريبة.
+- **نطاق التوصيل الذكي:** يعرض المتاجر المتاحة ضمن محيط 15 كم من موقع العميل الفعلي.
+- **تعدد الأدوار (Multi-role):** واجهات مخصصة للعملاء، أصحاب المتاجر، السائقين، والمسؤولين.
+- **إشعارات فورية:** متابعة حالة الطلب لحظة بلحظة عبر نظام تنبيهات متقدم.
+- **تطبيق PWA:** إمكانية تثبيت المنصة على الهاتف كأي تطبيق موبايل دون الحاجة لمتجر التطبيقات.
+- **دعم اللغة العربية:** واجهة مستخدم كاملة ومهيأة للغة العربية (RTL).
+---
+## 🛠️ التكنولوجيا المستخدمة
+### الواجهة الأمامية (Frontend)
+- **React 18** مع **TypeScript**.
+- **Vite** لتجربة تطوير وبناء فائقة السرعة.
+- **Tailwind CSS** للتصميم العصري والمستجيب.
+- **TanStack Query** لإدارة جلب وتحسين البيانات.
+### الواجهة الخلفية (Backend)
+- **Node.js** و **Express**.
+- **Sequelize ORM** لإدارة قاعدة البيانات.
+- **PostgreSQL** لتخزين البيانات بكفاءة عالية.
+- **JWT** لتأمين عمليات تسجيل الدخول والتحقق من المستخدمين.
+---
+## 📁 هيكلية المشروع
+```text
+app/
+├── frontend/               # تطبيق الواجهة الأمامية (React)
+└── backend_node/           # تطبيق الواجهة الخلفية (Node.js)
 ```
-
-See the [package source](https://github.com/lodash/lodash/tree/4.17.23-es) for more details.
+---
+## 🚀 كيفية التشغيل
+1. **الواجهة الخلفية:**
+   ```bash
+   cd app/backend_node
+   npm install
+   npm run dev
+   ```
+2. **الواجهة الأمامية:**
+   ```bash
+   cd app/frontend
+   npm install
+   npm run dev
+   ```
